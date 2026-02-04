@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-prompt-extractor-nodes"
+description = "Custom nodes for ComfyUI that extract text prompts from PNG image metadata"
+version = "1.0.0"
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/MushroomFleet/ComfyUI_PromptExtractor_nodes"
+
+[tool.comfy]
+PublisherId = "mushroomfleet"
+DisplayName = "DJZ Prompt Extractor"
+Icon = ""

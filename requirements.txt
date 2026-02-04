@@ -1,0 +1,3 @@
+# ComfyUI Prompt Extractor Nodes
+# No external dependencies required - uses only PIL and standard Python libraries
+# PIL/Pillow and torch are provided by ComfyUI
