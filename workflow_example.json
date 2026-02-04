@@ -1,0 +1,334 @@
+{
+  "id": "fcda382e-c87e-42b5-91c4-85d9e7186063",
+  "revision": 0,
+  "last_node_id": 9,
+  "last_link_id": 11,
+  "nodes": [
+    {
+      "id": 2,
+      "type": "easy showAnything",
+      "pos": [
+        2527.3775940783216,
+        801.3589435852261
+      ],
+      "size": [
+        349.79930599470026,
+        151.84294160371797
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "76b5896f089d5b4f7619559cf5f7fc0560e3dc40",
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "# Enhanced Araki-Style Prompt\n\nDramatic wide-angle environmental illustration of Valkyri blood-witness striding through sci-fi command deck corridor with regal martial presence. Black-haired warrior woman in form-fitting black chrome bodysuit with blood orange geometric trim strikes extreme contrapposto mid-stride—spine curved in theatrical S-line, weight shifted powerfully forward, one arm extended with fingers spread wide in commanding gesture, opposite elbow bent at dramatic impossible angle. Asymmetrical curved talon horn emerges from left temple like crown accent. Billowing shadow-cloak trails behind creating dynamic movement lines. Face partially shadowed with only piercing eyes and slight determined smirk catching underlighting. Foreground elements frame composition—holographic tactical displays float at different depths, metallic corridor architecture creates leading lines. Molten orange ground glow illuminates from below creating theatrical chiaroscuro against cool cyan-blue holographic interface light. Bold complementary color clash—blood orange accents against deep blacks and cold blues, high saturation non-naturalistic palette. Low angle shot emphasizing imposing feminine power and authority. Clean graphic linework with Renaissance anatomical definition beneath sleek futuristic costume design, negative space used actively around striding figure, cinematic depth of field with sharp focus on commanding presence, Niflheim-IX aesthetic combining haute couture silhouettes with martial functionality."
+      ]
+    },
+    {
+      "id": 9,
+      "type": "easy showAnything",
+      "pos": [
+        2832.678263093542,
+        89.47455740561176
+      ],
+      "size": [
+        322.7125411362299,
+        378.28829582053316
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "76b5896f089d5b4f7619559cf5f7fc0560e3dc40",
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "# Enhanced Araki-Style Prompt\n\nDramatic wide-angle environmental illustration of Valkyri blood-witness striding through sci-fi command deck corridor with regal martial presence. Black-haired warrior woman in form-fitting black chrome bodysuit with blood orange geometric trim strikes extreme contrapposto mid-stride—spine curved in theatrical S-line, weight shifted powerfully forward, one arm extended with fingers spread wide in commanding gesture, opposite elbow bent at dramatic impossible angle. Asymmetrical curved talon horn emerges from left temple like crown accent. Billowing shadow-cloak trails behind creating dynamic movement lines. Face partially shadowed with only piercing eyes and slight determined smirk catching underlighting. Foreground elements frame composition—holographic tactical displays float at different depths, metallic corridor architecture creates leading lines. Molten orange ground glow illuminates from below creating theatrical chiaroscuro against cool cyan-blue holographic interface light. Bold complementary color clash—blood orange accents against deep blacks and cold blues, high saturation non-naturalistic palette. Low angle shot emphasizing imposing feminine power and authority. Clean graphic linework with Renaissance anatomical definition beneath sleek futuristic costume design, negative space used actively around striding figure, cinematic depth of field with sharp focus on commanding presence, Niflheim-IX aesthetic combining haute couture silhouettes with martial functionality."
+      ]
+    },
+    {
+      "id": 6,
+      "type": "DJZ_PromptExtractor",
+      "pos": [
+        2532.9038806162635,
+        88.53354269828738
+      ],
+      "size": [
+        270,
+        378
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            9
+          ]
+        },
+        {
+          "name": "negative_prompt",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "metadata_json",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DJZ_PromptExtractor"
+      },
+      "widgets_values": [
+        "ComfyUI_00435_.png",
+        "longest_string",
+        "image"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "DJZ_PromptExtractorFromPath",
+      "pos": [
+        2540.199528360571,
+        613.5205120214815
+      ],
+      "size": [
+        286.425390625,
+        122
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            10
+          ]
+        },
+        {
+          "name": "negative_prompt",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "metadata_json",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DJZ_PromptExtractorFromPath"
+      },
+      "widgets_values": [
+        "C:\\Users\\Genuine\\Downloads\\ComfyUI_00403_.png",
+        "longest_string"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "easy showAnything",
+      "pos": [
+        3272.6399168261846,
+        608.657148432122
+      ],
+      "size": [
+        478.7323067210209,
+        327.36517788660825
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "76b5896f089d5b4f7619559cf5f7fc0560e3dc40",
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "# Enhanced Araki-Style Prompt\n\nDramatic wide-angle environmental illustration of Valkyri blood-witness striding through sci-fi command deck corridor with regal martial presence. Black-haired warrior woman in form-fitting black chrome bodysuit with blood orange geometric trim strikes extreme contrapposto mid-stride—spine curved in theatrical S-line, weight shifted powerfully forward, one arm extended with fingers spread wide in commanding gesture, opposite elbow bent at dramatic impossible angle. Asymmetrical curved talon horn emerges from left temple like crown accent. Billowing shadow-cloak trails behind creating dynamic movement lines. Face partially shadowed with only piercing eyes and slight determined smirk catching underlighting. Foreground elements frame composition—holographic tactical displays float at different depths, metallic corridor architecture creates leading lines. Molten orange ground glow illuminates from below creating theatrical chiaroscuro against cool cyan-blue holographic interface light. Bold complementary color clash—blood orange accents against deep blacks and cold blues, high saturation non-naturalistic palette. Low angle shot emphasizing imposing feminine power and authority. Clean graphic linework with Renaissance anatomical definition beneath sleek futuristic costume design, negative space used actively around striding figure, cinematic depth of field with sharp focus on commanding presence, Niflheim-IX aesthetic combining haute couture silhouettes with martial functionality."
+      ]
+    },
+    {
+      "id": 7,
+      "type": "DJZ_PromptExtractorBatch",
+      "pos": [
+        2951.5041434011177,
+        611.5855418870518
+      ],
+      "size": [
+        275.758177056155,
+        159.16828530449456
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "prompts_list",
+          "type": "STRING",
+          "links": [
+            11
+          ]
+        },
+        {
+          "name": "filenames_list",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DJZ_PromptExtractorBatch"
+      },
+      "widgets_values": [
+        "",
+        10,
+        "longest_string"
+      ]
+    }
+  ],
+  "links": [
+    [
+      9,
+      6,
+      0,
+      9,
+      0,
+      "STRING"
+    ],
+    [
+      10,
+      5,
+      0,
+      2,
+      0,
+      "STRING"
+    ],
+    [
+      11,
+      7,
+      0,
+      8,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "path",
+      "bounding": [
+        2513.9474694454857,
+        519.3345707290438,
+        373.2294306275362,
+        443.86731445990006
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "DJZ Prompt Extractor",
+      "bounding": [
+        2500.2061566381303,
+        -4.784637145411523,
+        668.0760789212682,
+        492.9454123018169
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "batched",
+      "bounding": [
+        2920.083496165294,
+        521.6574825569293,
+        871.6259040233977,
+        444.95078505423885
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6303940863128539,
+      "offset": [
+        -2209.310534220105,
+        177.16339022092825
+      ]
+    },
+    "workflowRendererVersion": "LG",
+    "frontendVersion": "1.35.9",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
